@@ -14,7 +14,7 @@ public class Homes extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		main = this;
-		mysql = new MySQL("193.34.145.203", "kd46679_myplugins", "kd46679_myplugins", "FloNoq29ZOzx");
+		mysql = new MySQL("", "", "", "");
 		mysql.Connect();
 		Bukkit.getPluginCommand("home").setExecutor(new CMD_Home());
 	}
